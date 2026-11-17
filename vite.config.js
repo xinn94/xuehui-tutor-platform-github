@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: '/xuehui-tutor-platform-github/',
   plugins: [react()],
-  // 若部署到 GitHub Pages 的專案子路徑，請改成 base: '/repository-name/'
 });
